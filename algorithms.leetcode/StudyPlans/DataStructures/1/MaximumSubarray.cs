@@ -4,7 +4,7 @@
     {
         public int MaxSubArray(int[] nums)
         {
-            if (nums?.Length < 2)
+            if (nums.Length < 2)
                 return nums == null ? 0 : nums[0];
 
             var maxSubArraySum = default(int?)!;
